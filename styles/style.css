@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+}
+/******************************
+         Header part 
+********************************/
+.header {
+  background-image: url("../images//banner/banner1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  text-align: right;
+}
+.header .text {
+  padding: 200px 150px 24px 0;
+}
+.header h1 {
+  font-size: 65px;
+  color: #151414;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 24px;
+}
+.header p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 28px;
+}
+.btn-primary {
+  background: #f15b22;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 26px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/******************************
+    Failures of Previous Year
+********************************/
+.failures-section {
+  padding: 125px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.failures-text h1 {
+  font-size: 40px;
+  color: #151414;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 24px;
+}
+.failures-text p {
+  font-weight: 400;
+  color: #444343;
+  padding-bottom: 16px;
+}
+ul li {
+  list-style: none;
+  margin-left: -35px;
+}
+.fa-check {
+  color: #16d887;
+}
+
+/******************************
+           My plan
+********************************/
+.plan-section {
+  text-align: center;
+}
+.plan-heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  padding-bottom: 50px;
+}
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 130px;
+}
+.plan h3 {
+  padding: 8px 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+.plan p {
+  color: #737272;
+  font-weight: 500;
+}
+
+/******************************
+        Positive mindset
+********************************/
+.positive-mindset-section {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
+  width: 70%;
+  height: 250px;
+  margin-bottom: 130px;
+  margin-left: 230px;
+  border-radius: 8px;
+}
+.positive-mindset-section h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.positive-mindset-section .positive-mindset-text {
+  padding: 60px 50px;
+}
+.btn-call {
+  background: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 13px 18px;
+  color: #f15b22;
+  font-weight: 600;
+}
+
+/******************************
+  Quotes for positive mindset
+********************************/
+.quotes-positive-mindset {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.quotes-positive-mindset h1 {
+  font-family: "Work Sans", sans-serif;
+  padding: 12px 0;
+  font-size: 40px;
+}
+.quotes-positive-mindset .quotes-title {
+  padding: 0 0 25px 0;
+  color: #444343;
+}
+.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.quote {
+  border: 0;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+.quote:hover {
+  background-color: white;
+  box-shadow: 0px 0px;
+}
+.quote h3 {
+  padding: 12px 0;
+  font-size: 30px;
+  color: rgb(23, 0, 90);
+}
+.quote p {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.quotes-t {
+  color: rgb(0, 151, 30);
+}
+
+/******************************
+        Contact Section
+********************************/
+.contact-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #151414;
+  height: 400px;
+  color: white;
+}
+.contact-future h1 {
+  font-family: "Work Sans", sans-serif;
+  padding: 48px 0 30px 0;
+  font-size: 38px;
+}
+.contact-text {
+  color: #dfdfdb;
+  font-weight: 500;
+  padding: 12px 0 20px 0;
+}
+.email {
+  padding-bottom: 10px;
+}
+.phone {
+  padding-bottom: 25px;
+}
+.social-image img {
+  padding-right: 10px;
+}
+.subscribe h1 {
+  padding: 42px 0;
+  font-size: 28px;
+}
+input[type="email"] {
+  background-color: #05000e42;
+  width: 280px;
+  height: 50px;
+  color: white;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 20px;
+}
+input::placeholder {
+  opacity: 0.8;
+  color: white;
+}
+
+/******************************
+           footer
+********************************/
+footer {
+  text-align: center;
+  padding: 5px 0;
+}
